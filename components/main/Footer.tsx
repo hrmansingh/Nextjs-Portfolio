@@ -16,31 +16,25 @@ const Footer = () => {
             <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
                 
 
-                <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
+                <div className="min-w-[200px] h-auto flex flex-col items-center justify-start z-90">
                     <div className="font-bold text-[16px]">Community</div>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <FaYoutube />
-                        <span className="text-[15px] ml-[6px]">Youtube</span>    
-                    </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
+                    
+                    <a href="https://github.com/hrmansingh" className="flex flex-row items-center my-[15px] cursor-pointer" style={{zIndex:"200"}}>
                         <RxGithubLogo />
-                        <span className="text-[15px] ml-[6px]">Github</span>    
-                    </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
+                        <span className="text-[15px] ml-[6px] cursor-pointer z-101">Github</span>    
+                    </a>
+                    <a style={{cursor: "pointer"}}>herlo</a>
+                    <a href="" className="flex flex-row items-center my-[15px] cursor-pointer" style={{zIndex:"200"}}>
                         <RxDiscordLogo />
                         <span className="text-[15px] ml-[6px]">Discord</span>    
-                    </p>
+                    </a>
                 </div>
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                     <div className="font-bold text-[16px]">Social Media</div>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
+                    <a href="https://www.instagram.com/codegarh/" className="flex flex-row items-center my-[15px] cursor-pointer">
                         <FaYoutube />
                         <span className="text-[15px] ml-[6px]">Instagram</span>    
-                    </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <RxGithubLogo />
-                        <span className="text-[15px] ml-[6px]">Twitter</span>    
-                    </p>
+                    </a>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                         <RxDiscordLogo />
                         <span className="text-[15px] ml-[6px]">Linkedin</span>    
@@ -53,18 +47,13 @@ const Footer = () => {
                         <span className="text-[15px] ml-[6px]">Become Sponsor</span>    
                     </p>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                      
-                        <span className="text-[15px] ml-[6px]">Learning about me</span>    
-                    </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                  
-                        <span className="text-[15px] ml-[6px]">mifwebchain@gmail.com</span>    
+                        <span className="text-[15px] ml-[6px]">23hermansingh@gmail.com</span>    
                     </p>
                 </div>
             </div>
 
             <div className="mb-[20px] text-[15px] text-center">
-                &copy; WebChain Dev 2023 Inc. All rights reserved
+                &copy; Herman 2023 Inc. All rights reserved
             </div>
         </div>
     </div>
