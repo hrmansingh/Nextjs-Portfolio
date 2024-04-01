@@ -2,9 +2,6 @@ import React from "react";
 import {
   RxDiscordLogo,
   RxGithubLogo,
-  RxInstagramLogo,
-  RxTwitterLogo,
-  RxLinkedinLogo,
 } from "react-icons/rx";
 
 import { FaYoutube } from "react-icons/fa";
@@ -23,7 +20,6 @@ const Footer = () => {
                         <RxGithubLogo />
                         <span className="text-[15px] ml-[6px] cursor-pointer z-101">Github</span>    
                     </a>
-                    <a style={{cursor: "pointer"}}>herlo</a>
                     <a href="" className="flex flex-row items-center my-[15px] cursor-pointer" style={{zIndex:"200"}}>
                         <RxDiscordLogo />
                         <span className="text-[15px] ml-[6px]">Discord</span>    
@@ -42,17 +38,17 @@ const Footer = () => {
                 </div>
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                     <div className="font-bold text-[16px]">About</div>
-                   <p className="flex flex-row items-center my-[15px] cursor-pointer">
+                   {/* <p className="flex  items-center my-[15px] cursor-pointer">
                      
-                        <span className="text-[15px] ml-[6px]">Become Sponsor</span>    
-                    </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <span className="text-[15px] ml-[6px]">23hermansingh@gmail.com</span>    
-                    </p>
+                        <span className="text-[15px] ml-[6px]"></span>    
+                    </p> */}
+                    <a href="mailto:23hermansingh@gmail.com" className="flex flex-row items-center my-[15px] cursor-pointer" style={{zIndex:"200"}}>
+                        <span className="text-[15px] ml-[6px] cursor-pointer">23hermansingh@gmail.com</span>    
+                    </a>
                 </div>
             </div>
 
-            <div className="mb-[20px] text-[15px] text-center">
+            <div className="mb-[20px]  my-16 text-[15px] text-center">
                 &copy; Herman 2023 Inc. All rights reserved
             </div>
         </div>

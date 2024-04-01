@@ -7,8 +7,8 @@ import Image from "next/image";
 
 const Encryption = () => {
   return (
-    <div className="flex flex-row relative items-center justify-center min-h-screen w-full h-full">
-      <div className="absolute w-auto h-auto top-0 z-[5]">
+    <div className="flex flex-row relative items-center justify-center min-h-screen w-full h-full overflow-hidden ">
+      <div className="absolute w-auto h-auto top-0  z-[5]">
         <motion.div
           variants={slideInFromTop}
           className="text-[40px] font-medium text-center text-gray-200"
@@ -50,14 +50,14 @@ const Encryption = () => {
         </div>
       </div>
 
-      <div className="w-full flex items-start justify-center absolute">
+      <div className="w-[700px] overflow-hidden sm:w-full flex items-start absolute">
         <video
           loop
           muted
           autoPlay
           playsInline
           preload="false"
-          className="w-full h-auto"
+          className=" w-1100 h-200"
           src="/encryption.webm/"
         />
       </div>
